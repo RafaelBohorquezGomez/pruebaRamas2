@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenedorcontacto{
+    /*border: 1px solid red;*/
+    padding: 20px;
+}
+
+.contenedorcontacto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1{
+    /*border: 1px solid green;*/
+    text-align: center;
+}
+
+.item2{
+    width: 50%; /* Ancho de los divs */ /* Alto de los divs */
+    /*margin: 10px; !* Espacio entre los divs *!*/
+    /*background-color: lightblue;*/
+    /*border: 1px solid #000;*/
+    text-align: center;
+    height: 300px;
+}
+
+
+.item3{
+    width: 50%;
+    /*margin: 10px;*/
+    /*background-color: lightblue;*/
+    /*border: 1px solid #000;*/
+    height: 300px;
+    margin-top: 10px;
+}
+
+
+.contenedorredes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center; /* Centra horizontalmente el contenedor de imágenes */
+    align-items: center; /* Centra verticalmente las imágenes si el contenedor tiene altura específica */
+    gap: 10px; /* Espacio entre imágenes */
+    width: fit-content; /* Ajusta el ancho al contenido */
+    margin: 0 auto; /* Centra el contenedor dentro del contenedor padre */
+    padding: 30px;
+}
+
+.imgredes img {
+    height: auto;
+}
